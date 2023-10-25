@@ -1,0 +1,23 @@
+.Icon {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    font-weight: 700;
+}
+
+.Icon-container-check:hover .Icon-svg {
+    color: rgba(0, 128, 0, 0.871);
+}
+
+.Icon-container-delete:hover .Icon-svg {
+    color: rgb(241, 37, 37);
+}
+
+.Icon-svg {
+    width: 24px;
+    height: 24px;
+
+}
